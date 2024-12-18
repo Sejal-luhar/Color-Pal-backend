@@ -20,7 +20,7 @@ app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
 app.use(cors({
-  origin: true,
+  origin: 'https://color-pal-frontend.vercel.app',
   credentials: true
 }));
 app.use(express.json());
